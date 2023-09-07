@@ -24,17 +24,26 @@
 
 .container {
     margin: 0 auto;
-    width: 100%;
 }
 
 
-.debug .container {
-    border: 1px solid white;
+.user {
+    position: relative;
 }
 
 .user_photo {
     margin-top: 5px;
+    
 }
 
-.user {
+.user_name {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.549);
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
 }
+
+/* .debug .container {
+    border: 1px solid white;
+} */
