@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +40,7 @@
     
 }
 
-.user_name {
+.user_details {
     color: white;
     background-color: rgba(128, 128, 128, 0.549);
     padding: 5px;
@@ -44,6 +48,12 @@
     bottom: 5px;
 }
 
-/* .debug .container {
+.debug .main-footer {
     border: 1px solid white;
-} */
+    height: 50px;
+}
+
+.main-footer {
+    background-color: #222222;
+    
+}
